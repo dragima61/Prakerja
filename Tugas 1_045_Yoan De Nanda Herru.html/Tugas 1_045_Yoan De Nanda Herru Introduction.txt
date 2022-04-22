@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tugas 1 Yoan De Nanda Herru</title>
+</head>
+<header>
+    <ul type="square">
+        <li><a href="Tugas 1_045_Yoan De Nanda Herru Introduction.html">Introduction</a> </li>
+        <li><a href="Experience.html">Experience</a></li>
+        <li><a href="Study.html">Study</a></li>
+        <li><a href="Skill.html">Skill</a></li>
+        <li><a href="Certification and Training.html">Certification and training</a></li>
+    </ul>
+</header>
+
+<body>
+    <h1><strong>
+            Yoan De Nanda Herru
+        </strong></h1>
+    <p>A graduate with master's degree who motivated me to constantly develop my skills and grow professionally. I am
+        confident in my ability to work in the Research and Development or Quality Control and Assurance Field. Always
+        curious and want to learn something new. I have been working in a laboratory for research for 3 or 5 years when
+        I
+        was studying for my bachelor's and master's degrees</p>
+    <br>
+    Age : 27
+    <br>
+    Location : Palembang, Indonesia
+    <br>
+    Phone Number : 082173885663
+    <br>
+    e-Mail: yoannanda06@gmail.com
+    <br>
+    Social media
+    <ul>
+        <li><a href="https://www.linkedin.com/in/yoan-de-nanda-herru-7b8595118/">LinkedIn</a></li>
+    </ul>
+
+    <footer>
+        <h3>Hey Guess, Please Introduce Yourself</h3>
+        <form>
+            <div id="Nama">
+                <label for="Nama">Nama</label>
+                <input type="text" name="Nama">
+            </div>
+            <div id="Usia">
+                <label for="Usia">Usia</label>
+                <input type="number" name="Usia">
+            </div>
+            <div id="email">
+                <label for="email">email</label>
+                <input type="email" name="email">
+            </div>
+            <div id="Alamat">
+                <label for="Alamat">Alamat</label>
+                <textarea name="Alamat"></textarea>
+            </div>
+        </form>
+    </footer>
+</body>
+
+</html>
