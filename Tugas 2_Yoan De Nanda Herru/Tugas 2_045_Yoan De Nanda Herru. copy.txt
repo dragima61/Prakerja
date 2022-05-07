@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Latihan 2 Yoan De Nanda Herru</title>
+    <style>
+        header {
+            width: 100%;
+            background-color: grey;
+            text-align: right;
+        }
+
+        .nav-list {
+            margin: 0;
+            padding-right: 100px;
+            padding-top: 10px;
+        }
+
+        .nav-list li {
+            display: inline;
+            list-style: none;
+            margin: 8px;
+
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: white;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 50px;
+            padding: 20px;
+            border: 1px solid black;
+            background-color: white;
+        }
+
+        .images {
+            width: 150px;
+        }
+
+        .card>div {
+            margin: 10px;
+            padding: 20px;
+        }
+
+        .Guess-Profile {
+            margin: 50px;
+            border: 1px solid black;
+            background-color: whitesmoke;
+
+        }
+
+        .Title-Form {
+            text-align: center;
+        }
+
+        .Profile {}
+    </style>
+</head>
+
+<body>
+    <header>
+        <ul class="nav-list">
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#product">Product</a></li>
+            <li><a class="nav-link" href="#galery">Galery</a></li>
+            <li><a class="nav-link" href="#blog">Blog</a></li>
+            <li><a class="nav-link" href="#my inventory">My Inventory</a></li>
+        </ul>
+    </header>
+    <section id="profile">
+        <div class="card">
+            <div class="card-left">
+                <img src="pas_foto_nanda.png" alt="Foto Profile" class="images">
+            </div>
+            <div class="card-midle">
+                <h3><b>Yoan De Nanda Herru</b></h3><br>
+                <p>Front End Designer</p>
+                <input type="Submit" value="Kontak">
+                <input type="Submit" value="Resume">
+            </div>
+            <div class="card-right">
+                <table>
+                    <tr>
+                        <td><b>Availibility</b></td>
+                        <td>: Full Time</td>
+                    </tr>
+                    <tr>
+                        <td><b>Usia</b></td>
+                        <td>: 27 Tahun</td>
+                    </tr>
+                    <tr>
+                        <td><b>Lokasi</b></td>
+                        <td>: Palembang</td>
+                    </tr>
+                    <tr>
+                        <td><b>Pengalaman</b></td>
+                        <td>: 1 Tahun</td>
+                    </tr>
+                    <tr>
+                        <td><b>Email</b></td>
+                        <td>: yoannanda06@gmail.com</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="form">
+        <div class="card" style="flex-direction: column;">
+            <h3>Please Intorduce Yourelf</h3>
+            <form>
+                <div><label for="Nama">Nama</label></div>
+                <div><input type="text" name="Nama" style="width: 100%;"></div>
+                <div><label for="Role">Role</label></div>
+                <div><input type="text" name="Role" style="width: 100%;"></div>
+                <div><label for="Availibility">Availibility</label></div>
+                <div><input type="text" name="Availibility" style="width: 100%;"></div>
+                <div><label for="Age">Age</label></div>
+                <div><input type="Number" name="Age" style="width: 100%;"></div>
+                <div><label for="Location">Location</label></div>
+                <div><textarea name="Location" style="width: 100%;"></textarea></div>
+                <div><label for="Years Experience">Years Experience</label></div>
+                <div><input type="text" name="Years Experience" style="width: 100%;"></div>
+                <div><label for="Email">Email</label></div>
+                <div><input type="email" name="Email" style="width: 100%;"></div>
+                <div><input type="Submit" value="Submit"></div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

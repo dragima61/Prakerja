@@ -1,0 +1,12 @@
+Store "phi" to 3,14
+Store "R" to any value
+Store "Luas" without value
+Store "Keliling" without value
+
+Calculate "phi" times "R" times "R"
+Set "Luas" to value computation result
+Display "Luas"
+
+Calculate "2" times "phi" times "R"
+Set "Keliling" to value computation result
+Display "Keliling"
